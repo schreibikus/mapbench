@@ -2,4 +2,4 @@
 all: bench
 
 bench:bench.cpp
-	g++ -O2 bench.cpp -o $@
+	g++ -Wall -O3 bench.cpp -o $@ -g
